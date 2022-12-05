@@ -1,7 +1,5 @@
 # Members-App
 - This is a members app that allows you to add members, update, and delete members, created with Express. 
-
-
 ---
 
 ### Technology used: 
@@ -12,5 +10,8 @@
 
 ---
 
-### How to run app:
-- Open browser to `http://localhost:5000/`
+# Install dependencies
+npm install
+
+# Serve on localhost:5000
+npm run dev
