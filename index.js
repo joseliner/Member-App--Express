@@ -4,8 +4,6 @@ const exphbs = require('express-handlebars');
 const logger = require('./middleware/logger');
 const members = require('./Members');
 
-const router = express.Router();
-
 const dotenv = require('dotenv')
 
 dotenv.config()
@@ -44,7 +42,7 @@ const PORT = process.env.PORT;
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
 
-module.exports = router;
+
 
 
 
